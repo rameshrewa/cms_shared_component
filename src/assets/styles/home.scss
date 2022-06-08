@@ -1,0 +1,467 @@
+.subscription{
+    position: relative;
+    display: inline-block; /* Make the width of subscription same as image */
+}
+
+.subs-btn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+    width: 206px;
+    height: 43px;
+    border: white;
+}
+.search-btn {
+    background: #1CA0F2 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+}
+.submit-queries {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    opacity: 1;
+    font-family: 'Roboto';
+}
+.submit-inputs {
+    width: 100%;
+    height: 45px;
+    color: #1A1C20 !important;
+    border-radius: 5px;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C5C5C5;
+    margin: 5px 0px;
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+}
+.submit-textarea {
+    width: 100%;
+    height: 90px;
+    color: #1A1C20 !important;
+    border-radius: 5px;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C5C5C5;
+    margin: 5px 0px;
+    font-size: 16px;
+    padding: 6px 10px 6px 10px;
+}
+.contact-us-width {
+    width: 78px;
+}
+@media (max-width: 768px) {
+    .header-tag {
+        font-size: 20px !important;
+    }
+    .contact-us {
+        font-size: 25px !important;
+    }
+
+    .contact-us-width {
+        width: 80px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subscription .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0px;
+        font-size: 11px;
+        font-family: "Roboto";
+        top: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .subscription .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 36px;
+        font-size: 11px;
+        font-family: "Roboto";
+        top: 0px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:767px) {
+.submit-inputs {
+    width: 100%;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C5C5C5;
+    color: #1A1C20 !important;
+    border-radius: 5px;
+    opacity: 1;
+  //  margin: 6px 0px;
+    font-size: 16px;
+}
+.subscription .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0px auto;
+    left: 60px;
+    font-size: 9px;
+    font-family: "Roboto";
+    top: 48px;
+    text-align: center;
+}
+}
+
+.sbt-btn {
+    left: 521px;
+    width: 333px;
+    height: 48px;
+    background: #1CA0F2 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.bookastay-input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 0px 0px 0px 10px;
+}
+.book-stay-container {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 30px;
+}
+
+.book-btn {
+    border-radius: 20px;
+    background-color: rgb(28, 160, 242);
+    color: white;
+    width: 140px;
+    height: 35px;
+}
+.form-line-height {
+    line-height: 3;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    opacity: 1;
+    font-family: Roboto;
+}
+
+.form-sec {
+    background: url(/images/home/farming/form-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: fit-content;
+    min-width: 100%;
+}
+
+.farm-card {
+    background: #D9EAF8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 44px;
+}
+
+.farm-card-two {
+    background: #E8E8E8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 40px;
+}
+.farm-card-nursurey {
+    background: #EAF9ED 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding: 40px;
+}
+
+// Events Styles starts
+
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.hotspot-height {
+    height:auto
+}
+@media only screen and (min-width:1000px) {
+    .hotspot-height {
+        height: 424px;
+    }
+
+    .map-location {
+        height: 430px;
+        width: 100%;
+      }
+}
+
+.home-content {
+    text-align: left;
+    font-size: 16px;
+    font-family:'Roboto';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.home-color {
+    color: #5E5E5E;
+}
+.bookstay-color {
+    color: #FFFFFF;
+}
+
+
+
+.header-tag {
+    text-align: left;
+    font-size: 30px;
+    color: #333333;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+.notification-tag {
+    text-align: left;
+    font-size: 20px;
+    color: #333333;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+.subheader-tag {
+    text-align: left;
+    font-size: 25px;
+    color: #333333;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.facilitie-text {
+    color: #4D4D4D;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 900;
+    opacity: 1;
+    font-size: 16px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.event-date {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'Roboto';
+}
+
+.event-title {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: Roboto;
+}
+
+.event-about {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.event-links {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1CA0F2;
+    opacity: 1;
+    font-family: 'Roboto';
+}
+
+.ashram-postion {
+    position: 'relative'
+}
+
+.contact-us {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.subs-head {
+    text-align: left;
+    font-size:20px ;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.abyasis-input {
+    margin:5px 0px;
+}
+
+
+//events Carsouel
+
+.events-section {
+
+    .react-multi-carousel-list {
+      max-width: 94%;
+      margin: 0 auto;
+    }
+
+.carousel-section {
+    position: relative;
+  }
+
+  .carousel-button-group {
+    position: absolute;
+    bottom: 18px;
+    right: 40px;
+
+    .navigations {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .sbt-btn {
+        left: 521px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .event-cards {
+        width: 23rem;
+        margin: 1.0rem;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 5px;
+    }
+    .media-card {
+        width: 23rem;
+        margin: 0.50rem
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    .event-cards {
+        width: 23rem;
+        margin: 1.0rem;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 5px;
+    }
+    .media-card {
+        width: 23rem;
+        margin: 0.50rem
+    }
+  }
+
+  @media (min-width: 992px) {
+    .event-cards {
+        width: 18rem;
+        margin: 1.0rem;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 5px;
+    }
+    .media-card {
+        width: 18rem;
+        margin: 0.50rem
+    }
+    .event-left {
+        margin-left: 14px
+    };
+    .event-left1 {
+        margin-left: 40px
+    };
+  }
+
+  @media (min-width: 1200px) {
+
+    .subscription .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 60px;
+        font-size: 22px;
+        font-family: "Roboto";
+        top: 31px;
+        text-align: center;
+    }
+    .event-cards {
+        width: 18rem;
+        margin: 1.0rem;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 5px;
+    }
+    .media-card {
+        width: 18rem;
+        margin: 0.50rem
+    }
+    .event-left {
+        margin-left: 14px
+    };
+    .event-left1 {
+        margin-left: 40px
+    };
+  }
+  .radio-btn {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+  }

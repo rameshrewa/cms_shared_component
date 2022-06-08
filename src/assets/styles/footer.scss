@@ -1,0 +1,143 @@
+// footer section style start
+
+.footer-wrapper {
+  .footer-section {
+    background: url(/images/footer/footer-bg.png);
+    color: #fff;
+    padding-top: 70px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 100%;
+    position: relative;
+
+    .logo-section {
+      img {
+        margin-bottom: 20px;
+      }
+    }
+
+    .footer-widget {
+      h3 {
+        font-weight: bold;
+        font-size: 20px/24px;
+        font-family: 'Roboto';
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 20px;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+            font: '16px/48px Roboto';
+            letter-spacing: 0px;
+          }
+        }
+      }
+    }
+
+    .quick-links {
+      padding-left: 60px;
+      margin-top: 32px;
+    }
+
+    .footer-seprator {
+      display: block;
+      margin: 30px 0;
+      background: #fff;
+      opacity: 1;
+    }
+
+    .a {
+      fill: none;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+    }
+
+    .b {
+      fill: #fff;
+    }
+
+    .d {
+      fill: #fff;
+    }
+    .social-icons {
+      display: flex;
+      list-style: none;
+      li {
+        margin-right: 15px;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .footer-wrapper {
+    .footer-section {
+      .quick-links {
+        padding-left: 12px;
+      }
+    }
+    .social-icons {
+      padding: 0;
+      justify-content: center;
+    }
+
+    .copy-rights-row {
+      text-align: center !important;
+    }
+  }
+
+
+}
+.p-desc {
+  text-align: left;
+  font-size:16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  font-family: 'Roboto';
+}
+.footer-desc {
+  text-align: left;
+  font-size:16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: 'Roboto';
+}
+.no-caps {
+  text-transform: lowercase;
+
+}
+
+.p-quote {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-family: Roboto;
+}
+.contact-top {
+  margin-top: 30px;
+}
+
+.footer-wrapper .footer-section .footer-widget h3, .footer-wrapper .footer-section .footer-widget .h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+}
+
+// footer section style end

@@ -1,0 +1,55 @@
+.about-bg {
+    background: url(/images/about/about-bg.png);
+}
+#image .about-sec {
+    background: url(/images/about/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 3px;
+}
+.book-stay-sec {
+    background: url(/images/home/bookastay/bookstay-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 3px;
+}
+.about-bg-full {
+    margin-top: 96px !important;
+    height: auto;
+    max-width: 100%;
+}
+
+.abtimg{
+    position: relative;
+    display: inline-block; /* Make the width of abtimg same as image */
+    margin-top: 100px;
+    background-size: cover;
+}
+.abtimg .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 80px;
+    top: 70%;
+    text-align: left;
+    width: 60%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+ @media screen and (max-width: 600px) {
+    .abtimg .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 22px;
+        top: 40%;
+        text-align: left;
+        width: 60%;
+        font-size: 15px;
+        font-family: 'Roboto';
+    }
+ }
+
+ .padding-abt {
+    padding:'70px'
+ }

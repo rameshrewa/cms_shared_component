@@ -1,0 +1,18 @@
+$primary : #1CA0F2;
+$info : #7239ea;
+$secondary : #6c757d;
+$success : #50cd89;
+
+// import plugin css 
+@import "~bootstrap/scss/bootstrap";
+@import url("react-multi-carousel/lib/styles.css");
+@import url("react-toastify/dist/ReactToastify.css");
+//@import url("react-loader-spinner/dist/loader/css/react-spinner-loader.css");
+//@import url('react-phone-input-2/lib/style.css');
+@import url("./fonts/font.css");
+@import "./common.scss";
+@import "./header.scss";
+@import "./footer.scss";
+@import "./about.scss";
+@import "./home.scss";
+@import "./pages/home/index.scss";

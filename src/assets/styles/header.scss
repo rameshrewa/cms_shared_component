@@ -1,0 +1,159 @@
+.header-section {
+  position: fixed;
+  width: 100%;
+  z-index: 8888;
+  background: #fff;
+
+  .top-menu {
+
+    .navbar {
+      padding: 0;
+      border-bottom: 1px solid rgb(255 255 255 / 0.4);
+    }
+
+    .navbar-brand {
+      padding: 0;
+
+      // img {
+      //   max-width: 120px;
+      // }
+    }
+
+    .navbar-collapse {
+      justify-content: flex-end;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 14px;
+        padding: 35px 13px !important;
+        border-bottom: 5px solid transparent;
+        color: black;
+        cursor: pointer;
+      }
+
+      .nav-link.active {
+        border-bottom: 5px solid #1CA0F2;
+        color: #1CA0F2;
+      }
+    }
+
+  }
+}
+
+.navbar-light .navbar-toggler {
+  background: #fff !important;
+}
+
+@media only screen and (max-width:991px) {
+  .header-section {
+    .top-menu {
+      .navbar-nav {
+        .nav-link {
+          padding: 10px !important;
+          background: #fff;
+          color: #000 !important;
+
+          &.active {
+            color: #fff !important;
+            background: $secondary;
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.donate-btn {
+      border-radius: 22px !important;
+      padding: 0 22px 0 22px !important;
+      margin-top: 27px;
+      height: 34px;
+      text-align: left;
+      font-size: 14px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: "Roboto",sans-serif;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+.dropdown-item {
+  color: white !important;
+  font-size: 14px;
+  background-color: #000 !important;
+}
+
+.header-section .top-menu .navbar-nav .nav-link {
+  font-family: "Roboto";
+  font-size: 15px;
+}
+.header-section .top-menu .navbar-nav .nav-link {
+  padding: 12px 13px !important;
+  border-bottom: 5px solid transparent;
+  color: #707070;
+  cursor: pointer;
+}
+
+.submit-bg {
+  background: #333333 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .submit-bg {
+    height: 100%;
+}
+.donate-btn {
+  margin-top: 12px !important;
+  margin-bottom: 12px;
+}
+ 
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .submit-bg {
+    height: 100%;
+}
+.donate-btn {
+  margin-top: 12px !important;
+  margin-bottom: 12px;
+}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .submit-bg {
+    height: 100%;
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .header-section .top-menu .navbar-nav .nav-link {
+    padding: 35px 13px !important;
+    border-bottom: 5px solid transparent;
+    color: #707070;
+    cursor: pointer;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .header-section .top-menu .navbar-nav .nav-link {
+    padding: 35px 13px !important;
+    border-bottom: 5px solid transparent;
+    color: #707070;
+    cursor: pointer;
+  }
+}
+
+.dropdown-divider {
+  height: 0;
+  color: white !important;
+}
