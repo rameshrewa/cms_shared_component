@@ -14,7 +14,7 @@ const HFNLink = memo(({
   state = null,
   replace = false
 }) => {
-  console.log(to, content, type)
+  
   const linkComponent = useMemo(() => {
     if (to && content) {
       if (type === "link") {

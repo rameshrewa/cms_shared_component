@@ -3,7 +3,7 @@ import React from "react";
 import HFNMenu from "./HFNMenu";
 
 const Header = ({ data }) => {
-console.log(data)
+  
   return (
     <header id="header" className="header-section sticky">
       <div className="top-menu">

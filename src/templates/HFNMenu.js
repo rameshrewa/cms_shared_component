@@ -40,7 +40,7 @@ const HFNTab = ({
             <Nav className="ms-auto">
               {data[itemsKey].map(item => (!item?.[idKey] ? null : item[subMenuKey]?.length > 0 ? (
                 <NavDropdown key={item[idKey]} title={item[labelKey]} id="basic-nav-dropdown" >
-                  {item[subMenuKey].map(val => { console.log(val);return (!val?.[subMenuIdKey] ? null : (
+                  {item[subMenuKey].map(val => (!val?.[subMenuIdKey] ? null : (
                     <NavDropdown.Item key={val[subMenuIdKey]}>
                       {
                         val[newTabKey] === 0 ?
@@ -55,7 +55,7 @@ const HFNTab = ({
                           </a>)
                       }
                     </NavDropdown.Item>
-                  ));})}
+                  )))}
                 </NavDropdown>
               ) : (
                 <Nav.Item key={item[idKey]}>
